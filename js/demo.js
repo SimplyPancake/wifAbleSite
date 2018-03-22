@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     lineColor: '#BBE8E8',
     directionX: 'right',
     directionY: 'up',
+    proximity: 170
   });
   var intro = document.getElementById('intro');
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';

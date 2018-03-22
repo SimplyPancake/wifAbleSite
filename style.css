@@ -1,7 +1,7 @@
 .announceText{
   font-family: Montserrat;
   color: white;
-  font-size: 500%;
+  font-size: 400%;
   position: fixed;
   left: 10%;
   top: 10%;
@@ -10,7 +10,7 @@
 .subTextSmall{
   font-family: Montserrat;
   color: white;
-  font-size: 150%;
+  font-size: 90%;
   position: fixed;
   left: 10%;
   right: 10%;
@@ -20,7 +20,7 @@
 .subTextMid{
   font-family: Montserrat;
   color: white;
-  font-size: 250%;
+  font-size: 170%;
   position: fixed;
   left: 10%;
   right: 10%;
@@ -30,11 +30,11 @@
 .subTextBig{
   font-family: Montserrat;
   color: white;
-  font-size: 450%;
+  font-size: 370%;
   position: fixed;
   left: 10%;
   right: 10%;
-  top: 30%;
+  top: 40%;
 }
 
 /* unvisited link */
