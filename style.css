@@ -1,0 +1,61 @@
+.announceText{
+  font-family: Montserrat;
+  color: white;
+  font-size: 500%;
+  position: fixed;
+  left: 10%;
+  top: 10%;
+}
+
+.subTextSmall{
+  font-family: Montserrat;
+  color: white;
+  font-size: 150%;
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: 25%;
+}
+
+.subTextMid{
+  font-family: Montserrat;
+  color: white;
+  font-size: 250%;
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: 30%;
+}
+
+.subTextBig{
+  font-family: Montserrat;
+  color: white;
+  font-size: 450%;
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  top: 30%;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+/* visited link */
+a:visited {
+    color: white;
+}
+/* selected link */
+a:active {
+    color: white;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body  {
+    background-image: url("media/spaceNetWithBlur.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
