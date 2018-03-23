@@ -2,12 +2,11 @@
   color: white;
   text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
   z-index: 10;
-
+  font-family: 'Nunito', sans-serif;
 }
 
 .homeText{
   position: relative;
-  font-family: TWCenMTItalic;
   font-size: 400%;
   left: 100px;
   top: 80px;
@@ -15,7 +14,6 @@
 
 .subTextSmall{
   position: absolute;
-  font-family: TWCenMTItalic;
   font-size: 120%;
   /* top: 25%; */
   left: 15%;
@@ -25,7 +23,6 @@
 
 .subTextMid1{
   position: absolute;
-  font-family: TWCenMTItalic;
   font-size: 320%;
   left: 30%;
   top: 40%;
@@ -33,7 +30,6 @@
 
 .subTextMid2{
   position: absolute;
-  font-family: TWCenMTItalic;
   font-size: 320%;
   left: 50%;
   top: 40%;
@@ -50,16 +46,6 @@ a:visited {
 /* selected link */
 a:active {
     color: white;
-}
-
-@font-face {
-  font-family: TWCenMT;
-  src: url(media/tw-cen-mt-std/TwCenClassMTStd-Regular.otf);
-}
-
-@font-face {
-  font-family: TWCenMTItalic;
-  src: url(media/tw-cen-mt-std/TwCenMtStd-Italic.otf);
 }
 
 body  {
