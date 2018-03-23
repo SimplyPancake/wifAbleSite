@@ -12,24 +12,29 @@
 }
 
 .subTextSmall{
-  font-family: TWCenMT;
-  font-size: 90%;
-  right: 10%;
+  position: absolute;
+  font-family: TWCenMTItalic;
+  font-size: 120%;
   /* top: 25%; */
+  left: 15%;
+  right: 15%;
+  top: 35%;
 }
 
 .subTextMid1{
   position: absolute;
   font-family: TWCenMTItalic;
   font-size: 320%;
-  left: 50px;
-  top: 165px;
+  left: 30%;
+  top: 40%;
 }
 
 .subTextMid2{
+  position: absolute;
   font-family: TWCenMTItalic;
   font-size: 320%;
-  /* top: 30%; */
+  left: 50%;
+  top: 40%;
 }
 
 /* unvisited link */
