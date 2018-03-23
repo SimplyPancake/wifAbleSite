@@ -1,44 +1,28 @@
-.announceText{
+.announceText, .subTextSmall, .subTextMid, .subTextBig{
   font-family: Montserrat;
   color: white;
-  font-size: 400%;
-  position: fixed;
   left: 10%;
-  top: 10%;
   z-index: 10;
+}
+
+.announceText{
+  font-size: 400%;
 }
 
 .subTextSmall{
-  font-family: Montserrat;
-  color: white;
   font-size: 90%;
-  position: fixed;
-  left: 10%;
   right: 10%;
-  top: 25%;
-  z-index: 10;
+  /* top: 25%; */
 }
 
 .subTextMid{
-  font-family: Montserrat;
-  color: white;
   font-size: 170%;
-  position: fixed;
-  left: 10%;
-  right: 10%;
-  top: 30%;
-  z-index: 10;
+  /* top: 30%; */
 }
 
 .subTextBig{
-  font-family: Montserrat;
-  color: white;
   font-size: 370%;
-  position: fixed;
-  left: 10%;
-  right: 10%;
-  top: 40%;
-  z-index: 10;
+  /* top: 40%; */
 }
 
 /* unvisited link */
@@ -59,7 +43,7 @@ a:active {
 }
 
 body  {
-    background-image: url("/media/spaceNetNoBlur.jpg");
+    background-image: url("media/spaceNetNoBlur.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
