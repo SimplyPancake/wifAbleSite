@@ -5,8 +5,8 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('particles'), {
-    dotColor: '#D2E6F3CC',
-    lineColor: '#FFFBF3BF',
+    dotColor: '#D2E6F34D',
+    lineColor: '#FFFBF333',
     directionX: 'right',
     directionY: 'up',
     proximity: 190
