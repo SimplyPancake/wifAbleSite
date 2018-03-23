@@ -59,7 +59,7 @@ a:active {
 }
 
 body  {
-    background-image: url("../media/spaceNetNoBlur.jpg");
+    background-image: url("/media/spaceNetNoBlur.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
