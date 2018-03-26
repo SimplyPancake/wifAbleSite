@@ -30,8 +30,17 @@ html, body { height: 100%; width: 100%; margin: 0; }
 
 .singleContent{
   position: relative;
-  width: 50%;
+  width: 50vw;
   height: 50vw;
+  text-align: center;
+  margin: 0px;
+  float: left;
+}
+
+.singleContent1{
+  width: 50vw;
+  height: 50vw;
+  left: 50vw;
   text-align: center;
   margin: 0px;
   float: left;
@@ -45,6 +54,7 @@ html, body { height: 100%; width: 100%; margin: 0; }
   font-weight: 300;
   font-size: 3em;
 }
+  /* color: #00000080; */
 
 .block1{
   overflow: hidden;
