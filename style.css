@@ -41,25 +41,27 @@ html, body { height: 100%; width: 100%; margin: 0; }
   width: 50vw;
   height: 50vw;
   left: 50vw;
-  text-align: center;
   margin: 0px;
   float: left;
 }
 
-.whiteSpaceTop{
+
+.whiteSpaceMid{
+  color: #00000080;
   position: relative;
   top: 25%;
   z-index: 5;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 3em;
-}
-
-.whiteSpaceMid{
-  position: absolute;
-  color: #00000080;
+  font-size: 2vw;
+  text-align: center;
 
 }
+
+a {
+  color: black;
+}
+
 .block1{
   overflow: hidden;
 }
